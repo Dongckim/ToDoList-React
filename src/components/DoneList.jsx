@@ -1,5 +1,3 @@
-
-
 const DoneList = ({item, clickRemoveButtonHandler, clickWorkingtrueChanger}) => {
     return (<div key={item.id} className='done-style'> 
     <div style={{fontWeight : 'bold'}}>{item.title}</div>
