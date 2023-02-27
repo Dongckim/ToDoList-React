@@ -25,7 +25,7 @@ const TodoTemplate = () => {
 
     const clickAddButtonHandler = () => {
         const newTodo = {
-            id: todo.length + 1,
+            id: Math.random(),
             title,
             content,
             isDone: 'false'

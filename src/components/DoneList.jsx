@@ -4,8 +4,10 @@ const DoneList = ({item, clickRemoveButtonHandler, clickWorkingtrueChanger}) => 
     <br/>
     {item.content}
     <br/>
-    <button className='button-style' onClick={()=>{clickRemoveButtonHandler(item.id)}}>삭제하기</button>
-    <button onClick={()=>{clickWorkingtrueChanger(item.id)}}>취소</button>
+    <div className="button-style">
+        <button  onClick={()=>{clickRemoveButtonHandler(item.id)}}>삭제하기</button>
+        <button  onClick={()=>{clickWorkingtrueChanger(item.id)}}>취소</button>
+    </div>
     </div>)
   };
 

@@ -5,8 +5,8 @@ const List = ({item, clickRemoveButtonHandler, clickWorkingfalseChanger}) => {
     {item.content}
     <br/>
     <div className="button-style">
-        <button onClick={()=>{clickRemoveButtonHandler(item.id)}}>삭제하기</button>
-        <button onClick={()=>{clickWorkingfalseChanger(item.id)}}>완료</button>  
+        <button  onClick={()=>{clickRemoveButtonHandler(item.id)}}>삭제하기</button>
+        <button  onClick={()=>{clickWorkingfalseChanger(item.id)}}>완료</button>  
     </div>
     </div>);
   };
